@@ -1,0 +1,11 @@
+public class LoginTest extends BaseClass {
+
+    @Test
+    public void loginToApplication(){
+
+        LoginPage login = new LoginPage(driver);
+
+        login.loginToApp("ineuron@ineuron.ai","ineuron");
+
+    }
+}

@@ -1,0 +1,10 @@
+        @Test
+        public void loginToApplication(){
+
+            WebDriver driver = new ChromeDriver();
+            driver.get("https://ineuron-courses.vercel.app/login");
+            driver.findElement(By.id("email1")).sendKeys("ineuron@ineuron.ai");
+            driver.findElement(By.id("passowrd1")).sendKeys("ineuron");
+            driver.findElement(By.xpath("//button[text()='Sign in']")).click();
+            //Assert here
+        }

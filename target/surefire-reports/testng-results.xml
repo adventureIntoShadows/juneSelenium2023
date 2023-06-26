@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T17:51:47 IST" name="Selenium 4 Practice Tests " finished-at="2023-06-23T17:51:47 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Selenium 4 Practice Tests  -->
+  <suite started-at="2023-06-23T17:51:18 IST" name="Suite1" finished-at="2023-06-23T17:51:45 IST" duration-ms="27496">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T17:51:18 IST" name="Regression1" finished-at="2023-06-23T17:51:45 IST" duration-ms="27496">
+      <class name="testCases.TestLogin">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.TestLogin@303cf2ba]" started-at="2023-06-23T17:51:18 IST" name="setUpBrowser" finished-at="2023-06-23T17:51:36 IST" duration-ms="18289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLogin@303cf2ba]" started-at="2023-06-23T17:51:41 IST" name="loginToApplication" data-provider="loginDetails" finished-at="2023-06-23T17:51:44 IST" duration-ms="2504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ineuron@ineuron.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ineuron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TestLogin@303cf2ba]" started-at="2023-06-23T17:51:44 IST" name="closeBrowser" finished-at="2023-06-23T17:51:45 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TestLogin -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

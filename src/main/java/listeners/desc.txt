@@ -1,0 +1,3 @@
+- a generic folder
+- here we will create a testNg listener which will create our reports
+

@@ -1,0 +1,2 @@
+- to create a helper class that will be used by our tests
+- this package helps with reusablility of the code

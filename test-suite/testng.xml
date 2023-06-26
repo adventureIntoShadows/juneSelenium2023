@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium 4 Practice Tests ">
+    <suite-files>
+        <suite-file path="testng-hybridModel.xml"/>
+<!--                <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+    </suite-files>
+</suite>

@@ -1,0 +1,9 @@
+public void LoginToApplication(){
+
+         WebDriver driver = BrowserFactory.startBrowser("Chrome","https://ineuron-courses.vercel.app/login");
+
+                driver.findElement(By.id("email")).sendKeys("ineuron@ineuron.ai");
+                driver.findElement(By.id("password1")).sendKeys("ineuron");
+                driver.findElement(By.xpath("//button[text()='Sign in']")).click();
+                //Assert Here
+}
